@@ -1,7 +1,31 @@
 #name {
 	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 48px;
+	margin: 0px;
 }
-.title {
+.linklist {
+	padding: 5px;
+	margin: 0px;
+}
+.linklist li {
 	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	display: inline;
+}
+.linklist li:not(:last-child):after {
+	content: ' /';
+}
+p.title {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 26px;
 	font-style: italic;
+	margin: 0px 0px 30px;
+}
+main {
+	# background: blue;
+	width: 600px;
+	padding: 10px 10px;
+	margin: 0px auto;
+	border: 3px solid #333333;
+	text-align: center;
 }
