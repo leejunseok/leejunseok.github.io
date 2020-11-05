@@ -1,6 +1,7 @@
 #name {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 48px;
+	font-weight: 400;
 	margin: 0px;
 }
 .linklist {
@@ -15,17 +16,10 @@
 .linklist li:not(:last-child):after {
 	content: ' /';
 }
-p.title {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 26px;
-	font-style: italic;
-	margin: 0px 0px 30px;
-}
 main {
-	# background: blue;
-	width: 600px;
+	width: 500px;
 	padding: 10px 10px;
-	margin: 0px auto;
+	margin: auto;
 	border: 3px solid #333333;
 	text-align: center;
 }
